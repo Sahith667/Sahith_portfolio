@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sahith portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/03ebf8fbce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+        <img src="logo1.jpeg" class="logo">
+        <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+           <li><a href="#about">About</a></li>  
+           <li><a href="#skills">Skills</a></li> 
+           <li><a href="#projects">Projects</a></li> 
+           <li><a href="#certifications">Certifications</a></li> 
+           <li><a href="#contact">Contact</a></li> 
+           <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul><i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+        
+        <h1>Hi, I'm <span> sahith </span></h1>
+           <h2> Scroll down to know more about me.Let's talk and get to know each other.</h2>
+        </div>
+    </div>
+</div>   
+<div id="about">
+  <div class="container">
+     <div class="row">
+         <div class="about-col-1">
+            <img src="photo.png">
+         </div>
+        <div class="about-col-2">
+          <h1 class="sub"> About Me</h1>
+          <p>I am sahith. I am an engineering student from Hyderabad specialised in Electronics and Communications Engineering at CMR Institute Of Technology. I am talkative, dedicated, and open-minded. I get across to people and adjust to changes with ease. My strength is my confidence and self adaptability according to situations. I can speak three languages like telugu, hindi, english. I help out my father in his business in my free time with which I have learnt tips in developing my interpersonal skills.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p> 
+            <p class="tab-links" onclick="opentab('interests and Hobbies')">Interests and Hobbies</p> 
+           </div>
+           <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Programming languages</span> <br> C C++ and JAVA</li>
+                <li>Front end web development </li>
+                <li>HTML and CSS</li>
+                <li>Node.js</li>
+                <li>Arduino</li>
+                <li>Matlab</li>
+            </ul>
+            </div>
+            <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2020-present</span> <br> Electronics and Communications Engineering at <br> CMR Institute Of Technology with an overall CGPA - 9.</li>
+                <li><span>2018-2020</span><br>Intermediate at Pinegrove junior college with 95%.</li>
+                <li><span>2018</span><br>Green wood high school with 429 marks of 500</li>
+            </ul>
+            </div>
+            <div class="tab-contents" id="interests and Hobbies">
+            <ul>
+                <li>Watching Cricket and Playing chess</li>
+                <li>Knowing about Mythology and Mysteries.</li>
+                <li>Travelling to discover pilgrimage and their history.</li>
+            </ul>
+            </div>
+        </div>
+      </div>
+  </div>
+</div> 
+<!------------------------>
+<div id="projects">
+    <div class="container">
+        <h1 class="sub"> Projects </h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-music"></i>
+                <h2>Symphonic</h2>
+                <a href="p1.png"></a>
+                <p class="para">Symphonic is a simple music web application that can provide users with a convenient way to listen to music. The application can allow users to play music tracks by clicking on a play button.The application can be designed to work on different devices and screen sizes, including desktops, laptops, tablets, and smartphones. This can be achieved using responsive design techniques with HTML and CSS.</p>
+                <a href="https://symphonic.netlify.app" class="know">Know more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-fan"></i>
+                <h2>Room air purifier</h2>
+                <p class="para">Room Air Purifiesr is an IoT based device which is made of both hardware and software.This project we made as a group and i was the team leader.This device basically shows us number of pollutants in a room. In this to display number of pollutants we have used an LCD display and the code is written in arduino.If the number of pollutants increase upto 200ppm we switch on the purifier which is made of basic components such as bike & car filters.It is a low cost device compared to modern day air purifiers.</p>
+                <a href="https://github.com/20R01A04G8/room-air-purifier" class="know">Know more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-list"></i>
+                <h2>Quiz</h2>
+                <p class="para">Developed a quiz application, where you can test your general-knowledge and after taking quiz your score is displayed. I have designed this quiz in such a way that you can attempt once more to impore your confidence. Utilized HTML, CSS, and JavaScript for the front-end, and google-sheet to access quiz data. Implemented responsive design for optimal viewing on various devices.</p>
+                <a href="https://github.com/20R01A04G8/vigilantes" class="know">know more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------>
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub"> Certifications </h1>
+        <div class="certifications-list">
+
+            <div class="work">
+                <img src="cBit.jpg" >  
+                <div class="layer">
+                    <h3>Cbit</h3>
+                    <p>Participated in annual tech fest in web desgining hackathon conducted in CBIT.</p>
+                    <a href="https://drive.google.com/file/d/1ZcT-UQwDuGLI96tvjOZZ0Jo85y7nZtOX/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>          
+            </div>
+            <div class="work">
+                <img src="Goldman Sachs.jpg" >  
+                <div class="layer">
+                    <h3>goldmansachs</h3>
+                    <p>Certified by Forage by completing the tasks and getting to know the work of an intern at Goldmansachs.</p>
+                    <a href="https://drive.google.com/file/d/1rRi6qPXZzQQejk1G3f1qWcWtvdBd3qDK/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>              
+            </div>
+            <div class="work">
+                <img src="1.jpg" >
+                <div class="layer">
+                    <h3>Internshala</h3>
+                    <p>Certified by Internshala in DSA.This course thought me basic points to advanced topics in datastructres through C language.</p>
+                    <a href="https://drive.google.com/file/d/1bCz-drhJmsiNppynFolp3YmTTLWhG6qS/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>                
+            </div>
+  
+
+        </div>
+        <a href="https://drive.google.com/drive/folders/19xfhtHbWIUI45hgkZefP94yku0H8Jxfj?usp=sharing" class="btn">See more</a>
+    </div>
+</div>
+<!--------------contact---------->
+
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>parsisahith@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7075487109</p>
+                <div class="social-icons">
+                    <a href="https://github.com/20R01A04G8"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/Sahith_parsi"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/Sahithp_02/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/parsi-sahith-b726b5220/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1OY8f3Zf7ffesw92DUM7yV7p-ZnmfonWn/view?usp=sharing" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required >
+                <input type="email" name="Email" placeholder="Your email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <span id="msg"></span> 
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright Sahith_parsi <i class="fa-sharp fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzF1U9ZqUUBXl6LowCFV4HyPLe3h6a5YhjLdxtzMLHUhHip6MYkIpF5ic5spOWi2qM8wA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
